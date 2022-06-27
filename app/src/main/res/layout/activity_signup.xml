@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black1"
+    tools:context=".Signup">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="191dp">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="30dp"
+                android:maxHeight="100dp"
+                app:srcCompat="@drawable/icon" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center"
+                android:text="Interact"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#101010"
+                android:textColorHighlight="#0B0B0B"
+                android:textColorHint="#FFFFFF" />
+
+            <EditText
+                android:id="@+id/nameBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/textbox"
+                android:drawableLeft="@drawable/user"
+                android:drawablePadding="15dp"
+                android:hint="Username"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/emailBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textbox"
+                android:drawableLeft="@drawable/email"
+                android:drawablePadding="15dp"
+                android:ems="10"
+                android:hint="Email "
+                android:inputType="textEmailAddress"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/passwordBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/textbox"
+                android:drawableLeft="@drawable/password"
+                android:drawablePadding="15dp"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:padding="10dp" />
+
+            <Button
+                android:id="@+id/CreateButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/button_signup_style"
+                android:text="create an account"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/LoginButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/button_login_style"
+                android:backgroundTint="@color/black"
+                android:text="already have an account"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

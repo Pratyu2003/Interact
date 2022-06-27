@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1240008627",
+    "project_id": "interact-6e980",
+    "storage_bucket": "interact-6e980.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1240008627:android:5740979bfb3f799f10edc6",
+        "android_client_info": {
+          "package_name": "com.pratyush.interact"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1240008627-ia0dlat9rske4feg4dhq1h5mih0hql3t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBw8ZSiuAnhf0cHOD2EgmMTnGAZfGBI7sg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1240008627-ia0dlat9rske4feg4dhq1h5mih0hql3t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
